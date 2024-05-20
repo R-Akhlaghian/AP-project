@@ -1,0 +1,53 @@
+.blue1{
+    -fx-background-image: url("blue1.png");
+}
+.blue2{
+    -fx-background-image: url("blue2.png");
+}
+.blue3{
+    -fx-background-image: url("blue3.png");
+}
+.blue4{
+    -fx-background-image: url("blue4.png");
+}
+.blue5{
+    -fx-background-image: url("blue5.png");
+}
+.gray1{
+    -fx-background-image: url("gray1.png");
+}
+.gray2{
+    -fx-background-image: url("gray2.png");
+}
+.green1{
+    -fx-background-image: url("green1.png");
+}
+.purple{
+    -fx-background-color: #D2B4DE;
+}
+.darkPurple{
+    -fx-background-color: #AF7AC5;
+}
+.icon{
+    -fx-background-image: url("cancel.png");
+    -fx-background-repeat: false;
+}
+
+.chatRoomIcon{
+    -fx-background-image: url("chatRoom.png");
+    -fx-background-repeat: false;
+}
+
+.sendIcon{
+    -fx-background-image: url("sendButton.png");
+    -fx-background-repeat: false;
+}
+
+.backIcon{
+    -fx-background-image: url("back.png");
+    -fx-background-repeat: false;
+}
+.searchIcon{
+    -fx-background-image: url("searchIcon.png");
+    -fx-background-repeat: false;
+}

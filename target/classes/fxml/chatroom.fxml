@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="545.0" styleClass="blue4" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.chatroomController">
+   <children>
+      <TextField fx:id="textBox" alignment="TOP_LEFT" layoutX="20.0" layoutY="438.0" prefHeight="136.0" prefWidth="438.0" />
+      <ScrollPane layoutX="20.0" layoutY="30.0" prefHeight="382.0" prefWidth="504.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1554.0" prefWidth="485.0" styleClass="blue3" stylesheets="@../CSS/style.css">
+               <children>
+                  <VBox fx:id="messagesVBox" layoutX="14.0" layoutY="14.0" prefHeight="912.0" prefWidth="462.0" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Button layoutX="479.0" layoutY="506.0" mnemonicParsing="false" onAction="#back" prefHeight="47.0" prefWidth="43.0" style="-fx-background-color: 00000;" styleClass="backIcon" stylesheets="@../CSS/style.css">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button alignment="TOP_LEFT" contentDisplay="TOP" layoutX="473.0" layoutY="438.0" mnemonicParsing="false" onAction="#send" prefHeight="47.0" prefWidth="43.0" style="-fx-background-color: 00000;" styleClass="sendIcon" stylesheets="@../CSS/style.css" textFill="#ff0808">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

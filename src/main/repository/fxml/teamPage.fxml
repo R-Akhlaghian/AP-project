@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" styleClass="blue3" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.teamsPageController">
+   <children>
+      <ScrollPane layoutX="46.0" layoutY="100.0" prefHeight="438.0" prefWidth="398.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="557.0" prefWidth="386.0" styleClass="blue5" stylesheets="@../CSS/style.css">
+               <children>
+                  <VBox fx:id="teamsVBox" layoutX="7.0" layoutY="5.0" prefHeight="549.0" prefWidth="347.0" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Button layoutX="815.0" layoutY="38.0" mnemonicParsing="false" onAction="#back" prefHeight="47.2" prefWidth="43.2" style="-fx-background-color: 00000;" styleClass="backIcon" stylesheets="@../CSS/style.css">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <TextField fx:id="searchBox" layoutX="46.0" layoutY="49.0" prefHeight="26.0" prefWidth="321.0" promptText="..." />
+      <Button fx:id="searchButton" layoutX="390.0" layoutY="35.0" mnemonicParsing="false" onAction="#search" prefHeight="47.0" prefWidth="54.0" style="-fx-background-color: 00000;" styleClass="searchIcon" stylesheets="@../CSS/style.css">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>
